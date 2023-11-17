@@ -122,15 +122,15 @@
     }
 
     .slider-item {
-        padding-top: 60px;
-        padding-bottom: 65px;
+        /* padding-top: 60px; */
+        /* padding-bottom: 65px; */
         padding-left: 0;
         padding-right: 0
     }
 
     .slider-content {
-        padding-left: 15px;
-        padding-right: 15px
+        /* padding-left: 15px; */
+        /* padding-right: 15px */
     }
 
     .slider-content h1 {
@@ -196,14 +196,14 @@
         width: 35px;
         line-height: 37px;
         font-size: 18px;
-        right: 70px;
-        bottom: -90px;
+        /* right: 70px; */
+        /* bottom: -90px; */
         margin: auto;
         opacity: 1
     }
 
     .hero-slider2.owl-theme .owl-nav [class*=owl-].owl-next {
-        left: 140px
+        /* left: 140px */
     }
 
     .banner-area.banner-area-five video {
@@ -1352,7 +1352,7 @@
 
 @media only screen and (min-width:576px) and (max-width:767px) {
     .container-fluid {
-        max-width: 540px !important
+        /* max-width: 540px !important */
     }
 }
 
@@ -1411,7 +1411,7 @@
     }
 
     .container-fluid {
-        max-width: 720px !important
+        /* max-width: 720px !important; */
     }
 
     .default-btn {
@@ -1491,8 +1491,8 @@
     }
 
     .slider-item {
-        padding-top: 60px;
-        padding-bottom: 70px;
+        /* padding-top: 60px; */
+        /* padding-bottom: 70px; */
         padding-left: 15px;
         padding-right: 15px
     }
@@ -1560,14 +1560,15 @@
         width: 35px;
         line-height: 37px;
         font-size: 18px;
-        right: 70px;
-        bottom: -50px;
+        /* right: 70px; */
+        /* bottom: -50px; */
+        top: 50%;
         margin: auto;
         opacity: 1
     }
 
     .hero-slider2.owl-theme .owl-nav [class*=owl-].owl-next {
-        left: 140px
+        /* left: 140px */
     }
 
     .banner-area.banner-area-five .slider-item {
@@ -2596,6 +2597,24 @@
         line-height: 40px
     }
 }
+/* @media only screen and (max-width:1355px){
+    .mobile-responsive-nav{
+        display: block;
+        z-index: 9999;
+    }
+    .desktop-nav{
+        display: none !important;
+    }
+    .mobile-responsive-nav .mobile-responsive-menu.mean-container a.meanmenu-reveal span {
+        background: #000;
+        height: 4px;
+        margin-top: -6px;
+        border-radius: 0;
+        position: relative;
+        top: 8px
+    }
+
+} */
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .pl-20 {
@@ -2643,11 +2662,11 @@
     }
 
     .hero-slider2.owl-theme .owl-nav [class*=owl-] {
-        left: 50px
+        /* left: 50px; */
     }
 
     .hero-slider2.owl-theme .owl-nav [class*=owl-].owl-next {
-        right: 50px;
+        /* right: 50px; */
         left: auto
     }
 
@@ -3399,10 +3418,10 @@
         padding: 14px 25px
     }
 }
-
-@media only screen and (max-width:991px) {
+/* -------------------media qurey max-width:1225px------------------- */
+@media only screen and (max-width:1225px) {
     .navbar-area {
-        background-color: #fff;
+        background-color: #165A3C;
         box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
         z-index: 2;
         padding-top: 20px;
@@ -3432,7 +3451,7 @@
     }
 
     .mobile-responsive-nav .mobile-responsive-menu {
-        position: relative
+        position: relative;
     }
 
     .mobile-responsive-nav .mobile-responsive-menu .logo {
@@ -3440,9 +3459,10 @@
         z-index: 2;
         max-width: 185px
     }
+    
 
     .mobile-responsive-nav .mobile-responsive-menu .logo .white-logo {
-        display: none
+        display: none;
     }
 
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav {
@@ -3518,7 +3538,7 @@
     }
 
     .mobile-responsive-nav .mobile-responsive-menu.mean-container a.meanmenu-reveal span {
-        background: #e32845;
+        background: #000;
         height: 4px;
         margin-top: -6px;
         border-radius: 0;
@@ -3531,6 +3551,11 @@
         position: absolute;
         z-index: 2;
         padding: 0
+    }
+    a.meanmenu-reveal{
+        display: block;
+
+
     }
 
     .mobile-responsive-nav .others-options {

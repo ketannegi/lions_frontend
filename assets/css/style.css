@@ -252,6 +252,7 @@ textarea {
 
 .navbar-area.nav-bg-2 .desktop-nav .others-options .icon  {
     color: #111d5e;
+    border : 5px solid;
 }
 
 .nav-bg-1 {
@@ -278,7 +279,12 @@ textarea {
 
 .desktop-nav .navbar ul {
     margin-bottom: 0;
-    list-style-type: none
+    list-style-type: none;
+    
+}
+
+.desktop-nav .navbar .others-options{
+    border:  1px solid;
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item {
@@ -601,11 +607,11 @@ textarea {
 }
 
 .desktop-nav .navbar .others-options {
-    padding-right: 40px;
+    /* padding-right: 40px;
+     */
 }
 
 .desktop-nav .navbar .others-options .icon {
-    font-size: 30px;
     color: #fff;
     cursor: pointer
 }
@@ -1200,27 +1206,33 @@ textarea {
 }
 
 .slider-item.banner-bg-1 {
-    background-image: url(/default/assets/images/lions/lps_slider_1.webp);
-    background-size: cover;
-    background-position: center;
+    background-image: url(/default/assets/images/lions/lps_slider_1.webp),
+    linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-blend-mode: overlay;
+  
     
 }
 
 .slider-item.banner-bg-2 {
-    background-image: url(../images/lions/lps_slider_2.webp)
+    background-image: url(../images/lions/lps_slider_2.webp),  linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-blend-mode:overlay;
+
 }
 
-.slider-item.banner-bg-3 {
-    /* background-image: url(../images/lions/lps_slider_3.webp) */
-}
+/* .slider-item.banner-bg-3 {
+     background-image: url(../images/lions/lps_slider_3.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+     background-blend-mode: darken;
+} */
 
 .slider-item.banner-bg-4 {
-    background-image: url(/default/assets/images/lions/lps_slider_4.webp);
-    background-blend-mode: darken;
+    background-image: url(/default/assets/images/lions/lps_slider_4.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 46%, rgba(0,0,0,0.7719420531884629) 54%, rgba(255,255,255,0) 100%);
+    background-blend-mode: overlay;
 }
 
 .slider-item.banner-bg-5 {
-    background-image: url(../images/lions/lps_slider_5.webp)
+    background-image: url(../images/lions/lps_slider_5.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-blend-mode: overlay;
+
 }
 
 .slider-item.banner-bg-6 {
@@ -1368,8 +1380,8 @@ textarea {
  
 .hero-slider2.owl-theme .owl-nav [class*=owl-] {
     position: absolute;
-    bottom: 30px;
-    left: 100px;
+    /* bottom: 30px; */
+    left: 0px;
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
@@ -1392,8 +1404,8 @@ textarea {
 }
 
 .hero-slider2.owl-theme .owl-nav [class*=owl-].owl-next {
-    right: 100px;
-    left: auto
+    right: 0px;
+    left: auto;
 }
 
 .hero-slider2.owl-theme .owl-nav [class*=owl-].owl-next i {
@@ -1404,9 +1416,9 @@ textarea {
 }
 
 .hero-slider2.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #e32845;
+    background-color: #165A3C;
     color: #fff;
-    border: 1px solid #e32845
+    border: 1px solid #165A3C
 }
 
 .hero-slider2:hover.owl-theme .owl-nav [class*=owl-] {
@@ -3413,7 +3425,7 @@ textarea {
 .single-health-care-card .health-care-content {
     background-color: #fff;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
-    padding: 30px
+    padding: 30px;
 }
 
 .single-health-care-card .health-care-content h3 {
@@ -5764,10 +5776,19 @@ textarea {
     flex-shrink: 2;
     padding: 0px;
     border-radius: 20px;
-    width: auto;
+    width: 100%;
 
 
     height: auto ;
+}
+@media screen and (max-width:991px) {
+
+.chairman_section_img img{
+    /* width: 100%; */
+
+
+    /* max-width: 300px ; */
+}
 }
 .chairman_section_content {
     font-size: 20px;
@@ -5775,6 +5796,8 @@ textarea {
 .chairman_section_content p {
     font-family:'lato',sans-serif;
     font-size: .8em;
+    text-align: justify;
+    
 }
 .chairman_section_content h2,h3 {
     color: #165A3C;

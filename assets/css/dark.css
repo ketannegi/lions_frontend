@@ -19,6 +19,7 @@
 }
 
 .switch-box .slider {
+    display: none;
     /* display: none; */
     position: absolute;
     cursor: pointer;
@@ -31,6 +32,7 @@
 }
 
 .switch-box .slider:before {
+    display: none;
     position: absolute;
     content: "";
     height: 30px;
