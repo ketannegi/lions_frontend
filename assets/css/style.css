@@ -1271,7 +1271,7 @@ textarea {
     font-size: 16px;
 
     max-width: 740px;
-    margin-left: 3.2em;
+    margin-left: 3.5em;
     margin-right: auto
 }
 
@@ -5783,7 +5783,7 @@ textarea {
     padding-top: 7px
 }
 .chairman-area{
-    display: grids;
+    display: grid;
 
 }
 .chairman_section {
@@ -5802,15 +5802,14 @@ textarea {
 @media screen and (max-width:991px) {
 
 .chairman_section_img img{
-    /* width: 100%; */
 
 
-    /* max-width: 300px ; */
 }
 }
 .chairman_section_content {
     font-size: 20px;
 }
+
 .chairman_section_content p {
     font-family:'lato',sans-serif;
     font-size: .8em;
