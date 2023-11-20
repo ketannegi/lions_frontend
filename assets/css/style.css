@@ -1227,13 +1227,20 @@ textarea {
     background-image: url(../images/lions/lps_slider_1.webp),
     linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
     background-blend-mode: overlay;
-  
+    background-size: 100% 100% ;
+    background-position: center;
+    /* background-position: center; */
+
     
 }
 
 .slider-item.banner-bg-2 {
     background-image: url(../images/lions/lps_slider_2.webp),  linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
     background-blend-mode:overlay;
+    background-size: 100% 100% ;
+    background-position: center;
+
+
 
 }
 
@@ -1245,11 +1252,20 @@ textarea {
 .slider-item.banner-bg-4 {
     background-image: url(../images/lions/lps_slider_4.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 46%, rgba(0,0,0,0.7719420531884629) 54%, rgba(255,255,255,0) 100%);
     background-blend-mode: overlay;
+    background-size: 100% 100% ;
+    background-position: center;
+
+
 }
 
 .slider-item.banner-bg-5 {
     background-image: url(../images/lions/lps_slider_5.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
     background-blend-mode: overlay;
+    background-size: 100% 100% ;
+    background-position: center;
+
+    
+
 
 }
 
