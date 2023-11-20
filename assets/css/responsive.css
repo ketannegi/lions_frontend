@@ -70,7 +70,7 @@
     }
 
     .section-title h2 {
-        font-size: 24px
+        font-size: 30px
     }
 
     .header-left-content {
@@ -392,7 +392,7 @@
     }
 
     .campus-content .campus-title h2 {
-        font-size: 24px;
+        font-size: 30px;
         margin-bottom: 15px
     }
 
@@ -1374,6 +1374,9 @@
     .pt-100 {
         padding-top: 50px
     }
+    .px-20{
+       padding-inline: 20px;   
+    }
 
     .pb-100 {
         padding-bottom: 50px
@@ -1408,7 +1411,7 @@
     }
 
     p {
-        font-size: 14px
+        font-size: 11px
     }
 
     .form-control {
@@ -1441,7 +1444,7 @@
     }
 
     .section-title h2 {
-        font-size: 24px
+        font-size: 30px
     }
 
     .top-header-area .container-fluid {
@@ -1518,6 +1521,12 @@
         
 
 
+    }
+
+    /* ----------------chairman-section------------*/
+
+    .chairman_section_content p{
+        font-size: 13px;
     }
 
     .slider-content.style2 {
@@ -1760,13 +1769,20 @@
         padding: 17px;
         padding-left: 70px
     }
+  
 
     .campus-content .campus-title {
-        margin-bottom: 25px
+        margin-bottom: 25px;
+    }
+
+    .campus-content .campus-title p{
+        font-size: 13px;
+        padding-right: 20px;
+        align-items: start;
     }
 
     .campus-content .campus-title h2 {
-        font-size: 24px;
+        font-size: 30px;
         margin-bottom: 15px
     }
 
