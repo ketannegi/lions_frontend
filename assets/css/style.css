@@ -56,6 +56,9 @@ img {
 .pl-15 {
     padding-left: 15px
 }
+.pl-0{
+    padding-left:0px;
+}
 
 .pr-15 {
     padding-right: 15px
@@ -66,14 +69,20 @@ img {
 .mr-20 {
     margin-right: 15px
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 
 .pr-20 {
     padding-right: 20px
 }
 .pr-10 {
+   
     padding-right: 10px
 }
-
+.pt-24{
+    padding-top: 24px;
+}
 .pl-20 {
     padding-left: 20px
 }
@@ -3926,8 +3935,8 @@ textarea {
 }
 
 .meetings h2 {
-    font-size: 36px;
-    margin-bottom: 20px
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 
 .meetings p {
@@ -4820,7 +4829,7 @@ textarea {
 }
 
 .footer-area {
-    background-color: #2F6A50;
+    background-color: #165A3C;
     position: relative;
     z-index: 1
 }
@@ -4837,12 +4846,12 @@ textarea {
     z-index: -1
 }
 
-.footer-logo-area {
+/* .footer-logo-area {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .footer-logo-area img {
     margin-bottom: 20px
@@ -4874,19 +4883,21 @@ textarea {
 }
 
 .footer-widjet {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .footer-widjet h3 {
+    height: 50px;
     font-size: 22px;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
 
 }
 
 .footer-widjet .list ul {
     padding-left: 0;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
 }
 
 .footer-widjet .list ul li {
@@ -4909,7 +4920,7 @@ textarea {
 
 .copyright-area {
     border-top: 2px solid white;
-    background-color: #2F6A50
+    background-color: #165A3C
 }
 
 .copyright {
@@ -4929,13 +4940,16 @@ textarea {
 }
 
 .copyright .social-content ul {
-    padding-left: 0;
-    margin-bottom: 0
+    padding-left: 0px;
+    margin-bottom: 0;
+    margin-left: -8px;
+
 }
 
 .copyright .social-content ul li {
     display: inline-block;
-    margin-right: 10px
+    margin-right: 15px;
+   
 }
 
 .copyright .social-content ul li:last-child {
@@ -4948,7 +4962,8 @@ textarea {
 
 .copyright .social-content ul li a {
     color: #cacaca;
-    transition: all ease .5s
+    transition: all ease .5s;
+    font-size: 25px;
 }
 
 .copyright .social-content ul li a:hover {
@@ -5166,7 +5181,9 @@ textarea {
 .interview-content .interview p {
     margin-bottom: 30px
 }
-
+.contact-and-address{
+    padding:40px;
+}
 .contacts-form {
     padding: 40px;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
@@ -5301,20 +5318,15 @@ textarea {
 }
 
 .contact-and-address .social-media ul li a {
-    height: 35px;
-    width: 35px;
-    line-height: 37px;
-    border-radius: 100%;
-    text-align: center;
-    display: inline-block;
-    background-color: #eee;
-    color: #e32845;
-    transition: all ease .5s
+    color: #cacaca;
+    transition: all ease .5s;
+    font-size: 25px;
+    /* color: #165A3C; */
 }
 
-.contact-and-address .social-media ul li a:hover {
-    background-color: #e32845;
-    color: #fff;
+.contact-and-address .social-media ul li a :hover {
+    color: #165A3C;
+   
     transform: translateY(-5px)
 }
 
@@ -5949,7 +5961,6 @@ textarea {
   }
  
   .horizontal-scrolling-items {
-    border: 1px solid;
     font-size: 1em;
     display: flex;
     width: 1800px;
