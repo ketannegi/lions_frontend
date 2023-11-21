@@ -60,7 +60,9 @@ img {
 .pr-15 {
     padding-right: 15px
 }
-
+.pt-10{
+    padding-top: 10px;
+}
 .mr-20 {
     margin-right: 15px
 }
@@ -93,8 +95,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #111d5e;
-    font-family: "source serif pro", serif;
+    color: #165A3C;
+    font-family:'Poppins', serif;
     font-weight: 700
 }
 
@@ -111,7 +113,7 @@ p:last-child {
 }
 
 a {
-    font-family: 'inter',sans-serif;
+    font-family: 'lato ',sans-serif;
     text-decoration: none
 }
 
@@ -1288,15 +1290,16 @@ textarea {
     background-image: url(../images/banner/banner-img8.jpg)
 }
 
-.slider-content {
+ .slider-content {
     z-index: 12;
 
     font-size: 16px;
 
     max-width: 740px;
-    margin-left: 3.5em;
-    margin-right: auto
-}
+    padding-inline: 20px ;
+    /* margin-left: 3.5em; */
+    /* margin-right: auto */
+} 
 
 .slider-content h1 {
     font-size: 3em;
@@ -4883,7 +4886,7 @@ textarea {
 
 .footer-widjet .list ul {
     padding-left: 0;
-    margin-bottom: 0
+    margin-bottom: 18px;
 }
 
 .footer-widjet .list ul li {
@@ -5247,8 +5250,8 @@ textarea {
     height: 65px;
     width: 65px;
     line-height: 65px;
-    border: 1px solid #e32845;
-    color: #e32845;
+    border: 1px solid #165A3C;
+    color: #165A3C;
     text-align: center;
     border-radius: 100%;
     margin: auto;
@@ -5847,7 +5850,7 @@ textarea {
 .chairman_section_content h2,h3 {
     color: #165A3C;
     font-family: 'Poppins', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     /* margin-top: 1em; */
 }
 .chairman_section_content h3 {
@@ -5902,12 +5905,13 @@ textarea {
 .gif-img span{
 
     position: absolute;
-    width: 21px;
-    height: 12px;
-    top: calc(50% - 5px);
-left: calc(50% - 11px); 
-background: white;
-z-index: 1; 
+    width: 25px;
+    height: 13px;
+    top: calc(50% - 6px);
+    left: calc(50% - 12px); 
+    background: white;
+    border-radius: 50%;
+    z-index: 1; 
 
 }
 .notice_section_content h2{
@@ -5933,24 +5937,25 @@ z-index: 1;
     color: white;
     bottom: 0;
     position: static;
-
-    width: 100vw;
+    width: 200vw;
     overflow-x : hidden;
-   background-color: green;
-   display: flex;   
+    background-color: green;
+    display: flex;   
 
  }
  @keyframes infiniteScroll {
-    from {transform: translateX(100%)}
+    from {transform: translateX(80%)}
     to {transform: translateX(-100%)}
   }
  
   .horizontal-scrolling-items {
+    border: 1px solid;
     font-size: 1em;
     display: flex;
-    width: 2600px;
+    width: 1800px;
     animation-name: infiniteScroll;
     animation-duration: 20s;
+    
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
