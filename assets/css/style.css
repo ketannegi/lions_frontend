@@ -4909,7 +4909,7 @@ textarea {
     margin-bottom: 0
 }
 
-.footer-widjet .list ul li a {
+.footer-widjet .list ul li,a  {
     color: #fff;
     transition: all ease .5s
 }
@@ -5951,34 +5951,57 @@ textarea {
     position: static;
     width: 200vw;
     overflow-x : hidden;
-    background-color: green;
+    background-color:#165A3C;
     display: flex;   
 
  }
- @keyframes infiniteScroll {
-    from {transform: translateX(80%)}
-    to {transform: translateX(-100%)}
-  }
+
  
   .horizontal-scrolling-items {
-    font-size: 1em;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-    width: 1800px;
-    animation-name: infiniteScroll;
-    animation-duration: 20s;
-    
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    width: 2600px;
+   
   }
   .horizontal-scrolling-items__item {
     white-space: nowrap;
     padding-inline: 10px;
+
     
   }
   .horizontal-scrolling-items__item i{
     color: #AF6A0D;
     font-size: 18px;
   }
+
+
+  /* ----------second horiazontal____________ */
+  .horizontal_containerhorizontal_scroll_ {
+    overflow: hidden;
+  }
+
+  .block-list {
+    position: relative;
+    gap: 1.6rem;
+  }
+  .horizontal_scroll_list {
+    padding: 0;
+    display: flex;
+    gap: 1.6rem;
+  }
+  
+  .horizontal_scroll_list > li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap:12px
+  }
+  .horizontal_scroll_list > li i {
+    vertical-align:top;
+  }
+
+  
  
   /* for testing purposed to ensure the animation lined up correctly */
  /* --------------activities page----------------

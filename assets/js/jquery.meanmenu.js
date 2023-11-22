@@ -181,3 +181,52 @@
     });
   };
 })(jQuery);
+
+// --------------------horizontal scrolling----------
+$(function () {
+  const text = $(".text");
+  const block = $(".block");
+  const clone = text;
+
+  const anim = () => {
+    $(clone).clone().appendTo($(block));
+    $(".block").animate(
+      {
+        left: "-100%"
+      },
+      7000,
+      "linear",
+      function () {
+        $(".text").first().remove();
+        $(block).css("left", "0");
+        anim();
+      }
+    );
+  };
+
+  const blockList = $(".block-list");
+  const list = $(".horizontal_scroll_list");
+  const listWidth = list.width() + parseInt($(blockList).css("gap"));
+  $(list).clone().appendTo($(blockList));
+  // По хорошему нужно считать сколько влезает
+  // в экран + 1, столько и копировать
+  // widthOfScreen % listWidth + 1
+  const animList = () => {
+    $(list).clone().appendTo($(blockList));
+
+    $(blockList).animate(
+      {
+        left: -listWidth
+      },
+      12000,
+      "linear",
+      function () {
+        $(".horizontal_scroll_list").first().remove(); //$(".list") !IMPORTANT
+        $(blockList).css("left", "0");
+        animList();
+      }
+    );
+  };
+  anim();
+  animList();
+});horizontal_scroll_list
