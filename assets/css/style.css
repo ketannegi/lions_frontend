@@ -303,7 +303,8 @@ textarea {
 }
 
 .desktop-nav .navbar .others-options{
-    border:  1px solid;
+    padding-left: 10px;
+
 }
 
 .desktop-nav .navbar .navbar-nav .nav-item {
@@ -1224,9 +1225,10 @@ textarea {
 }
 .banner-area .container-fluid {
     padding: 0;
+    padding-right: 30px;
     padding-left: 30px;
     max-width: 1720px;
-    margin-right: 0;
+    margin-right: auto;
     margin-left: auto
 }
 
@@ -4861,7 +4863,7 @@ textarea {
     margin-bottom: 25px;
     font-size: 15px;
     color: #fff;
-    width: max(450px , 90%);
+    /* width: max(450px , 90%); */
 }
 
 .footer-logo-area .contact-list ul {
