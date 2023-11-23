@@ -1,0 +1,233 @@
+[33mcommit b85fedefd6d5f17f9bddd47f3738565de8d2a3ab[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m)[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Thu Nov 23 11:43:19 2023 +0530
+
+    delete_unwanted_pages
+
+[33mcommit e0ffc79fef7971ba15f673381840c849b1f3ebd0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: ba97c0b d9ff813
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Wed Nov 22 12:33:07 2023 +0530
+
+    Merge pull request #14 from ketannegi/dev
+    
+    resize header_footer
+
+[33mcommit d9ff81361e3336f55fb895798405ebb4bdeb61db[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Wed Nov 22 12:31:33 2023 +0530
+
+    resize header_footer
+
+[33mcommit ba97c0b28bee418854b24ccd901732a984f51dc5[m
+Merge: e380339 f803d62
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Wed Nov 22 08:27:19 2023 +0530
+
+    Merge pull request #13 from ketannegi/dev
+    
+    update_horizontal_scroll
+
+[33mcommit f803d6296a36b7abffe41cf79661c6eec8053aed[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Wed Nov 22 08:25:49 2023 +0530
+
+    update_horizontal_scroll
+
+[33mcommit e380339a42fd3898c19b53607a74939a8457cedc[m
+Merge: 1d8fa83 5f72940
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Tue Nov 21 18:53:42 2023 +0530
+
+    Merge pull request #12 from ketannegi/dev
+    
+    update_footer
+
+[33mcommit 5f72940ce97627b7d6ae60c27b61dd625bae75e4[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Tue Nov 21 18:51:22 2023 +0530
+
+    update_footer
+
+[33mcommit 1d8fa83abfa6ffa5088bb6b2469a0764bad0595c[m
+Merge: 34ac885 0f30029
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Tue Nov 21 13:08:09 2023 +0530
+
+    Merge pull request #11 from ketannegi/dev
+    
+    updated
+
+[33mcommit 0f300292363df677b40d94ce61d8e2a6ab268042[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Tue Nov 21 13:06:55 2023 +0530
+
+    upadted
+
+[33mcommit 34ac88573d434af0ea8c807c05f7affcbf893d05[m
+Merge: 88da07d cd5adfe
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 19:42:32 2023 +0530
+
+    Merge pull request #10 from ketannegi/dev
+    
+    notice_section
+
+[33mcommit cd5adfece04c9466b9d6f5d267d5655719db73ee[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 19:41:42 2023 +0530
+
+    notice_section
+
+[33mcommit 88da07dea268bd99e062851b2302f9f24069eb1e[m
+Merge: 1d0106f fb6ef01
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 18:01:46 2023 +0530
+
+    Merge pull request #9 from ketannegi/dev
+    
+    change_header
+
+[33mcommit fb6ef01db0c31f16b943ed65a8aa350917119d9d[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 18:00:32 2023 +0530
+
+    change_header
+
+[33mcommit 1d0106f6d810d13226d2f1ff1051994d48f83f0c[m
+Merge: 821eb41 7c4c6e9
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 15:55:43 2023 +0530
+
+    Merge pull request #8 from ketannegi/dev
+    
+    img-center
+
+[33mcommit 7c4c6e91c7a8a9e3994d7bc7e33c9da1c8cc380f[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 15:55:00 2023 +0530
+
+    img-center
+
+[33mcommit 821eb41a2f89293fcf237832ecccd6c926e45fc5[m
+Merge: ee077ee 64325e0
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 14:25:19 2023 +0530
+
+    Merge pull request #7 from ketannegi/dev
+    
+    route
+
+[33mcommit 64325e0b4cc88e879adbc77445196a72d7cf9ba6[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 14:22:02 2023 +0530
+
+    route
+
+[33mcommit ee077ee887d80143aa40288e5247229f80e46a69[m
+Merge: 8754ac7 378a86d
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 13:49:43 2023 +0530
+
+    Merge pull request #6 from ketannegi/dev
+    
+    responsive_tab_mobile_view
+
+[33mcommit 378a86d0a92a895eda63253cc4a00cf9e2d0a919[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 13:48:27 2023 +0530
+
+    better_than_before
+
+[33mcommit 8754ac73bc235f1641374cf5824aef83094ac5e7[m
+Merge: c6df90b 2545af6
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Mon Nov 20 11:22:54 2023 +0530
+
+    Merge pull request #5 from ketannegi/dev
+    
+    update_mobile_view
+
+[33mcommit 2545af67f3489b3a5ec73ee1b289f24c1b482763[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Mon Nov 20 11:22:07 2023 +0530
+
+    update_mobile_view
+
+[33mcommit c6df90b87690f168c6a3f214afa2cb53b634189b[m
+Merge: dc43ff6 1ed775c
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Sat Nov 18 22:23:37 2023 +0530
+
+    Merge pull request #4 from ketannegi/dev
+    
+    font-changes
+
+[33mcommit 1ed775cab2b61a8279bbf147a73f25d03b1391ad[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Sat Nov 18 22:17:30 2023 +0530
+
+    font-changes
+
+[33mcommit dc43ff6763d94d8103b0c984bd6c8adc23aec24e[m
+Merge: 32bcafa aba64fb
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Sat Nov 18 17:55:10 2023 +0530
+
+    Merge pull request #3 from ketannegi/dev
+    
+    update header and footer 2.0
+
+[33mcommit aba64fb17cc4c463215de5b172a29d81df648452[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Sat Nov 18 17:53:48 2023 +0530
+
+    update header and footer 2.0
+
+[33mcommit 32bcafaa43403ae69c4472ce43761cd5edf9d9ed[m
+Merge: 0bbc09d fb332fc
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Sat Nov 18 15:34:33 2023 +0530
+
+    Merge pull request #2 from ketannegi/dev
+    
+    update_images_path
+
+[33mcommit fb332fce7a9fa6acd998e0b0d2d44c12ac47f414[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Sat Nov 18 15:33:38 2023 +0530
+
+    update_images_path
+
+[33mcommit 0bbc09d9ad4da9bde2453e5df5d0b512251a9797[m
+Merge: e77deda dfb31d8
+Author: Ketan_2000 <75447085+ketannegi@users.noreply.github.com>
+Date:   Sat Nov 18 14:35:08 2023 +0530
+
+    Merge pull request #1 from ketannegi/dev
+    
+    Dev
+
+[33mcommit dfb31d8ea50be565a04cac25cfdc98a551242006[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Fri Nov 17 17:12:26 2023 +0530
+
+    make responsive
+
+[33mcommit d1a231e796ecb0a13e21fe98803466c5a453b082[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Thu Nov 16 19:20:09 2023 +0530
+
+    Update header and footer
+
+[33mcommit e77deda612304475b729124a3532c6bed76c0721[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Tue Nov 14 18:22:51 2023 +0530
+
+    pages_add
+
+[33mcommit b5fb68df9ac4893890fdaa35325bf81c3f579d81[m
+Author: Ketan Negi <ketannegi13@gmail.com>
+Date:   Thu Nov 9 17:05:50 2023 +0530
+
+    add files

@@ -4911,7 +4911,7 @@ textarea {
     margin-bottom: 0
 }
 
-.footer-widjet .list ul li,a  {
+.footer-widjet .list ul li a  {
     color: #fff;
     transition: all ease .5s
 }
@@ -5283,7 +5283,8 @@ textarea {
 }
 
 .contact-and-address .contact-and-address-content .contact-card p {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .contact-and-address .contact-and-address-content .contact-card p a {
