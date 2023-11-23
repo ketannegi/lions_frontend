@@ -187,6 +187,10 @@
         margin-bottom: 15px
     }
 
+    .meetings .container .content_section  {
+        padding-left: 0;
+        
+    }
     .slider-content p {
         margin-bottom: 25px;
         width: calc(90% - 20px);
@@ -1495,6 +1499,10 @@
         justify-self: center;
         align-items: center;
     
+    }
+    .meetings .container .content_section  {
+        padding-left: 0;
+        
     }
 
     .footer-widjet {

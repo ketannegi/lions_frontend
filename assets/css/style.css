@@ -1210,7 +1210,9 @@ textarea {
 
 .banner-area {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
+    width: auto;
+    /* height: 100vh; */
 }
 
 .banner-area .banner-area-cover{
@@ -1245,44 +1247,39 @@ textarea {
 }
 
 .slider-item.banner-bg-1 {
-    background-image: url(../images/lions/lps_slider_1.webp),
-    linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-image: url(../images/lions/lps_slider_1.webp);
     background-blend-mode: overlay;
     /* background-position: center; */
-    /* background-position: center; */
+    background-position: center;
 
     
 }
 
 .slider-item.banner-bg-2 {
-    background-image: url(../images/lions/lps_slider_2.webp),  linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-image: url(../images/lions/lps_slider_2.webp);
     background-blend-mode:overlay;
     /* background-size: 100% 100% ; */
-    /* background-position: center; */
+    background-position: center;
 
 
 
 }
 
-/* .slider-item.banner-bg-3 {
-     background-image: url(../images/lions/lps_slider_3.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
-     background-blend-mode: darken;
-} */
+
 
 .slider-item.banner-bg-4 {
-    background-image: url(../images/lions/lps_slider_4.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 46%, rgba(0,0,0,0.7719420531884629) 54%, rgba(255,255,255,0) 100%);
+    background-image: url(../images/lions/lps_slider_4.webp);
     background-blend-mode: overlay;
     /* background-size: 100% 100% ; */
-    /* background-position: center; */
+    background-position: center;
 
 
 }
 
 .slider-item.banner-bg-5 {
-    background-image: url(../images/lions/lps_slider_5.webp), linear-gradient(90deg, rgba(0,0,0,0.7719420531884629) 12%, rgba(0,0,0,0.7719420531884629) 14%, rgba(255,255,255,0) 100%);
+    background-image: url(../images/lions/lps_slider_5.webp);
     background-blend-mode: overlay;
-    /* background-size: 100% 100% ; */
-    /* background-position: center; */
+    background-position: center;
 
     
 
@@ -1303,16 +1300,35 @@ textarea {
 
  .slider-content {
     z-index: 12;
-
     font-size: 16px;
-
-    max-width: 740px;
-    padding-inline: 20px ;
+  
+  
+padding-inline: 20px ;
     /* margin-left: 3.5em; */
     /* margin-right: auto */
 } 
+.slider-item {
+    border: 1px solid;
+    height: 70vh;
+    display: flex;
+    /* border: 1px solid ; */
+}
+.slider-item .container{
+    height: 100%;
+
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    padding-left: 20px;
+
+    
+
+}
+
 
 .slider-content h1 {
+    
+  
     font-size: 3em;
     font-family:'Poppins',sans-serif ;
 
@@ -2169,8 +2185,14 @@ textarea {
 }
 
 .campus-image {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    height: 100%;
+    width: 100%;
 }
+/* .campus-image img{
+    width: 100%;
+    height: 100%;
+} */
 
 .estemate-form {
     padding: 40px;
@@ -2966,12 +2988,19 @@ textarea {
 
 .single-campus-card {
     height: 300px;
-
     border: 4px solid rgb(178, 170, 170);
     margin-bottom: 30px;
     transition: all ease .5s;
     background-color: #fff;
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05)
+}
+.about-us-img div{
+    /* padding-right: 4px; */
+
+}
+.about-us-img div:nth-child(3){
+    padding-right: 0;
+
 }
 .single-campus-card .img{
     height: 100%;
@@ -3932,10 +3961,17 @@ textarea {
 
 .meetings {
     padding-bottom: 15px;
-    border-bottom: 1px solid #f4f6f9;
-    margin-bottom: 30px
+    /* border-bottom: 1px solid #f4f6f9; */
+    margin-bottom: 30px;
+    margin-top:30px;
 }
-
+.meetings .container .content_section  {
+    padding-left: 40px;
+    
+}
+.about-us-mb{
+    margin-bottom: 32px !important;
+}
 .meetings h2 {
     font-size: 26px;
     margin-bottom: 20px;
@@ -5839,11 +5875,9 @@ textarea {
     padding: 0px;
     border-radius: 20px;
     width: 100%;
-
-
-    height: auto ;
+    height: 100%;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 
 .chairman_section_img img{
     height: 300px;
@@ -6049,6 +6083,14 @@ textarea {
     padding: 10px;
 
     border: 1px solid;
+}
+
+/* ---------------about-us-secion-img------------ */
+
+.about-us-img-section{
+
+
+
 }
 
   
